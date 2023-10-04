@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Rubik:ital,wght@0,500;0,600;0,700;1,400;1,500&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.active {
+  color: #0006b1;
+}
+
+body {
+  overflow: hidden;
+  font-family: "Play", sans-serif;
+}
+
+.text__input {
+  @apply w-5/6 px-4 py-[0.3rem] rounded-lg focus:outline-none focus:border-blue-800 focus:ring-2 focus:ring-blue-800 outline outline-2 outline-gray-300;
+}
+
+.input-group {
+  @apply flex flex-col gap-2;
+}
+
+/* Primary button */
+.button_primary {
+  @apply px-4 py-2 text-center rounded border-[3px] border-blue-800 bg-gradient-to-b from-blue-800 to-purple-900 uppercase text-base font-bold text-white shadow-lg;
+}
+
+.navbarIcon {
+  @apply text-2xl;
+}

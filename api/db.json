@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Kuseh",
+      "email": "kuseh@gmail.com",
+      "password": "this is my password",
+      "confirmPassword": "this is my password",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Kuseh",
+      "email": "kuseh@gmail.com",
+      "password": "this is my password",
+      "confirmPassword": "this is my password",
+      "role": "admin"
+    },
+    {
+      "id": 3,
+      "name": "Kuseh",
+      "email": "kuseh@gmail.com",
+      "password": "this is my password",
+      "confirmPassword": "this is my password",
+      "role": "admin"
+    }
+  ],
+  "roles": [
+    {
+      "id": 1,
+      "roleName": "administrator",
+      "accessLevel": 100,
+      "roleCode": 100
+    },
+    {
+      "id": 1,
+      "roleName": "IT",
+      "accessLevel": 200,
+      "roleCode": 100
+    }
+  ]
+}
