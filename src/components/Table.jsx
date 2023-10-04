@@ -1,6 +1,7 @@
 import React from "react";
 import CheckBox from "./CheckBox";
 
+// Table component
 function Table({ column1, column2, tableData }) {
   if (!tableData) return <h1 className=" text-xl">No Table data</h1>;
 
